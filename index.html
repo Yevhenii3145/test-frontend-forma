@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <form class="form">
+        <p class="form-header">Оставьте свои данные, мы вам перезвоним</p>
+
+        <div class="form-container">
+            <label for="contact-us-name" class="input-label">Сумма</label>
+            <input class="contact-us-input" type="text" name="summa" id="contact-us-summa">
+            <span class="input-label-decor">
+                <svg class="username-icon">
+                <use href="./images/form.svg#icon-person-black"></use>
+                </svg>
+            </span>
+        </div>
+
+        <div class="form-container">
+            <label for="contact-us-tel" class="input-label">Телефон</label>
+            <input class="contact-us-input" type="tel" name="tel" id="contact-us-tel">
+            <span  class="input-label-decor">
+                <svg class="username-icon">
+                    <use href="./images/form.svg#icon-phone-black"></use>
+                </svg>
+            </span>
+        </div>
+
+        <div class="form-container">
+            <label for="contact-us-email" class="input-label">Почта</label>
+            <input class="contact-us-input" type="email" name="email" id="contact-us-email">
+            <span  class="input-label-decor">
+                <svg class="username-icon">
+                    <use href="./images/form.svg#icon-email-black"></use>
+                </svg>
+            </span>
+        </div>
+        <div class="form-container">
+            <label for="contact-us-email" class="input-label">Картинка</label>
+            <input class="contact-us-input" name="image" type="file" id="contact-us-image" />
+            <span  class="input-label-decor">
+                <svg class="username-icon">
+                    <use href="./images/form.svg#icon-email-black"></use>
+                </svg>
+            </span>
+        </div>
+        <button class="contact-us-btn" type="submit">Отправить</button>
+   </form>
+   <script src="index.js"></script>
+  </body>
+</html>
